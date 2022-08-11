@@ -27,6 +27,13 @@ body{
     font-family: customHeader;
   }
 
+  .home p{
+    color:yellow;
+    font-size: 2rem;
+    font-family: customHeader;
+    padding-bottom: 1rem;
+  }
+
   .message p{
     font-family: customHeader;
     font-size: 2.3rem;
