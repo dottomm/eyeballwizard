@@ -60,8 +60,11 @@ body{
   @media only screen and (max-width:800px) {
     /* For tablets: */
     .home {
-      width: 80%;
-      padding: 0;
+      width: 100%;
+      padding-top: 0;
+    }
+    .home h1{
+      font-size: 1rem;
     }
     
   }
@@ -72,9 +75,25 @@ body{
     .home {
       padding-top: 0;
       align-items: top;
-
-
-      width: 50%;
       font-size: small;
+      overflow-y: scroll;
+    }
+
+    .home h1{
+      font-size: 1rem;
+    }
+
+    .home p{
+      font-size: .8rem;
+    }
+
+    .message p{
+      font-size: .8rem;
+    }
+
+    input[type=text] {
+      padding: 9px 10px;
+      margin: 6px 0;
+      box-sizing: border-box;
     }
   }
