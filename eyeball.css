@@ -77,6 +77,7 @@ body{
       align-items: top;
       font-size: small;
       overflow-y: scroll;
+      height: 100%;
     }
 
     .home h1{
