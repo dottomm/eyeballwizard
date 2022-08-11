@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-   
+    box-sizing: border-box;
     
 }
 
@@ -55,4 +55,26 @@ body{
     src: 
          url('fonts/MarvinVisions-Bold.woff') format('woff'),
          url('fonts/MarvinVisions-Bold.woff2') format('woff2');
+  }
+
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .home {
+      width: 80%;
+      padding: 0;
+    }
+    
+  }
+
+
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .home {
+      padding-top: 0;
+      align-items: top;
+
+
+      width: 50%;
+      font-size: small;
+    }
   }
