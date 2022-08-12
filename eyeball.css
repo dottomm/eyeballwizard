@@ -82,14 +82,12 @@ body{
     
     }
 
-   /*
- .home h1{
-      font-size: 1.3rem;
+    .home h1{
+      font-size: 5rem;
     }
-   */
 
     .home p{
-      font-size: .8rem;
+      font-size: 1.2rem;
     }
 
     .message p{
@@ -102,6 +100,6 @@ body{
       padding: 9px 10px;
       margin: 6px 0;
       box-sizing: border-box;
-      border: 1px solid red;
+   
     }
   }
