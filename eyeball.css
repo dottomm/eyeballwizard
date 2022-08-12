@@ -41,6 +41,7 @@ body{
   }
 
 
+
     input[type=text] {
         padding: 12px 20px;
         margin: 8px 0;
@@ -64,10 +65,10 @@ body{
       min-height: 100vh; 
 
     }
-    .home h1{
-      font-size: 1rem;
-    }
     
+    
+    
+
   }
 
 
@@ -78,13 +79,14 @@ body{
       align-items: top;
       font-size: small;
       overflow-y: scroll;
-      
-      
+    
     }
 
-    .home h1{
-      font-size: 1rem;
+   /*
+ .home h1{
+      font-size: 1.3rem;
     }
+   */
 
     .home p{
       font-size: .8rem;
@@ -94,9 +96,12 @@ body{
       font-size: .8rem;
     }
 
+    
+
     input[type=text] {
       padding: 9px 10px;
       margin: 6px 0;
       box-sizing: border-box;
+      border: 1px solid red;
     }
   }
