@@ -1,105 +1,115 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  
 }
 
 body{
-    background-color: #000;
+  background-color: #000;
 }
 
 .home {
-    padding-top: 40vh;
-    overflow: hidden;
-    align-items: center;
-    text-align: center;
-    background: linear-gradient(to right, rgba(39, 39, 39, 0.5), rgba(39, 39, 39, 0.2)), url("images/LowResStinkyMarkOnStage.jpg") center ;
-    background-repeat: no-repeat;
-    background-size: cover;
+  padding-top: 40vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.5), rgba(39, 39, 39, 0.2)), url("images/LowResStinkyMarkOnStage.jpg") center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.home h1{
+  color:yellow;
+  font-size: 8rem;
+  font-family: customHeader;
+}
+
+.home p{
+  color:yellow;
+  font-size: 2.1rem;
+  font-family: customHeader;
+  padding-bottom: 1rem;
+}
+
+.message p{
+  width: 99%;
+  font-family: customHeader;
+  font-size: 2.3rem;
+  color: #fff;
+
+}
+
+
+
+  input[type=text] {
+      padding: 12px 20px;
+      margin: 4px ;
+      box-sizing: border-box;
+      
+    }
+
+    input[type=text]:focus {
+      background-color: yellow;
+      color: black;
+    }
+
+.highlight{
+  font-family: customHeader;
+  color: orange !important;
+}
+
+@font-face {
+  font-family: 'customHeader';
+  src: 
+       url('fonts/MarvinVisions-Bold.woff') format('woff'),
+       url('fonts/MarvinVisions-Bold.woff2') format('woff2');
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .home {
+    width: 100%;
+    padding-top: 0;
+    min-height: 100vh; 
+
+  }
+  
+  
+  
+
+}
+
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .home {
+    padding-top: 0;
+    align-items: top;
+    font-size: small;
+    overflow-y: scroll;
+  
   }
 
-
   .home h1{
-    color:yellow;
-    font-size: 8rem;
-    font-family: customHeader;
+    font-size: 5rem;
   }
 
   .home p{
-    color:yellow;
-    font-size: 2.1rem;
-    font-family: customHeader;
-    padding-bottom: 1rem;
+    font-size: 1.2rem;
   }
 
   .message p{
-    font-family: customHeader;
-    font-size: 2.3rem;
-    color: #fff;;
-
+    font-size: .8rem;
   }
 
-
-
-    input[type=text] {
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-      }
   
 
-
-  @font-face {
-    font-family: 'customHeader';
-    src: 
-         url('fonts/MarvinVisions-Bold.woff') format('woff'),
-         url('fonts/MarvinVisions-Bold.woff2') format('woff2');
+  input[type=text] {
+    padding: 9px 10px;
+    margin: 6px 0;
+    box-sizing: border-box;
+ 
   }
-
-  @media only screen and (max-width:800px) {
-    /* For tablets: */
-    .home {
-      width: 100%;
-      padding-top: 0;
-      min-height: 100vh; 
-
-    }
-    
-    
-    
-
-  }
-
-
-  @media only screen and (max-width:500px) {
-    /* For mobile phones: */
-    .home {
-      padding-top: 0;
-      align-items: top;
-      font-size: small;
-      overflow-y: scroll;
-    
-    }
-
-    .home h1{
-      font-size: 5rem;
-    }
-
-    .home p{
-      font-size: 1.2rem;
-    }
-
-    .message p{
-      font-size: .8rem;
-    }
-
-    
-
-    input[type=text] {
-      padding: 9px 10px;
-      margin: 6px 0;
-      box-sizing: border-box;
-   
-    }
-  }
+}
