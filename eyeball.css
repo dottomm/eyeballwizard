@@ -47,10 +47,12 @@ body, html {
 
 
 
-  input[type=text] {
-      padding: 12px 20px;
-      margin: 4px ;
+  input[type=text], input[type=submit] {
+      padding: 1rem 20px;
+      margin: .6rem;
       box-sizing: border-box;
+      color: black;
+      font-family: Helvetica,Arial, sans-serif;
       
     }
 
@@ -104,8 +106,6 @@ body, html {
   .message p{
     font-size: .8rem;
   }
-
-  
 
   input[type=text] {
     padding: 9px 10px;
